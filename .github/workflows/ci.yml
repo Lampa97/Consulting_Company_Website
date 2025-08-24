@@ -1,6 +1,6 @@
 name: Django CI
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
   lint:
@@ -55,8 +55,7 @@ jobs:
             ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SERVER_IP }} << 'EOF'
             
             echo "Step 1: Pulling the latest code from the repository"
-            cd Restaurant-webapp
-            sudo git checkout develop
+            cd Consulting_Company_Website
             sudo git pull
                     
             echo "Step 2: Creating static folder"
