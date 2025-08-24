@@ -51,9 +51,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Main Page</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'website:category-list' %}">Main Page</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'website:about' %}">About us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'website:contact' %}">Contacts</a></li>
                 </ul>
             </div>
         </div>
@@ -62,7 +62,7 @@
     <!-- Content -->
     <main class="container py-5">
         {% block content %}
-        <h1 class="text-center">Welcome to C.F.A</h1>
+        <h1 class="text-center">Welcome to C.A.F</h1>
         <p class="text-center text-muted">Your partner in grants, incentives, and strategic growth.</p>
         {% endblock %}
     </main>

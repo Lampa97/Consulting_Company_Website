@@ -42,7 +42,7 @@ class CategoryDetailView(DetailView):
 
 
 class ContactView(TemplateView):
-    template_name = "website/contact.html"
+    template_name = "website/contacts.html"
 
 
 class AboutView(TemplateView):
