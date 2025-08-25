@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-25 10:26+0300\n"
+"POT-Creation-Date: 2025-08-25 11:35+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\templates\404.html:5
+msgid "Page Not Found"
+msgstr "Sayfa bulunamadı"
+
+#: .\templates\404.html:12
+msgid "Page not found"
+msgstr "Sayfa bulunamadı"
+
+#: .\templates\404.html:13
+msgid "Sorry, the page you are looking for does not exist or has been moved."
+msgstr "Üzgünüz, aradığınız sayfa mevcut değil veya taşınmış."
+
+#: .\templates\404.html:14
+msgid "Back to Home"
+msgstr "Ana sayfaya dön"
+
 #: .\templates\base.html:102
 msgid "Empowering Growth. Enabling Success."
 msgstr "Büyümeyi destekliyor, başarıyı mümkün kılıyoruz."
@@ -71,7 +88,12 @@ msgid ""
 "provide expert support in areas such as investment incentives, trade "
 "subsidies, agricultural and rural development projects, renewable energy, "
 "and EU-funded programs."
-msgstr "Danışmanlık firmamız, işletmeleri, girişimcileri ve organizasyonları karmaşık hibe, teşvik ve yatırım programlarında yönlendirme konusunda uzmandır. Yatırım teşvikleri, ticaret sübvansiyonları, tarım ve kırsal kalkınma projeleri, yenilenebilir enerji ve AB destekli programlar gibi alanlarda uzman destek sağlıyoruz."
+msgstr ""
+"Danışmanlık firmamız, işletmeleri, girişimcileri ve organizasyonları "
+"karmaşık hibe, teşvik ve yatırım programlarında yönlendirme konusunda "
+"uzmandır. Yatırım teşvikleri, ticaret sübvansiyonları, tarım ve kırsal "
+"kalkınma projeleri, yenilenebilir enerji ve AB destekli programlar gibi "
+"alanlarda uzman destek sağlıyoruz."
 
 #: .\website\templates\website\about.html:43
 msgid "Our Approach"
@@ -83,9 +105,13 @@ msgid ""
 "strategies, and achieve sustainable growth. Our team combines deep knowledge "
 "of regulations with practical experience to deliver tailored solutions for "
 "every client."
-msgstr "Müşterilerimizin finansman fırsatlarına erişmesini, proje stratejilerini optimize etmesini ve sürdürülebilir büyüme elde etmesini sağlıyoruz. Ekibimiz, mevzuat konusundaki derin bilgiyi pratik deneyimle birleştirerek her müşteri için özel çözümler sunar."
+msgstr ""
+"Müşterilerimizin finansman fırsatlarına erişmesini, proje stratejilerini "
+"optimize etmesini ve sürdürülebilir büyüme elde etmesini sağlıyoruz. "
+"Ekibimiz, mevzuat konusundaki derin bilgiyi pratik deneyimle birleştirerek "
+"her müşteri için özel çözümler sunar."
 
-#: .\website\templates\website\category_detail.html:123
+#: .\website\templates\website\category_detail.html:124
 msgid "Back to all services"
 msgstr "Tüm hizmetlere geri dön"
 
@@ -101,7 +127,10 @@ msgstr "Neler sunuyoruz"
 msgid ""
 "C.A.F is a consulting company helping businesses, entrepreneurs, and "
 "organizations navigate complex grant, incentive, and investment programs."
-msgstr "C.A.F, işletmelerin, girişimcilerin ve organizasyonların karmaşık hibe, teşvik ve yatırım programlarında yolunu bulmasına yardımcı olan bir danışmanlık şirketidir."
+msgstr ""
+"C.A.F, işletmelerin, girişimcilerin ve organizasyonların karmaşık hibe, "
+"teşvik ve yatırım programlarında yolunu bulmasına yardımcı olan bir "
+"danışmanlık şirketidir."
 
 #: .\website\templates\website\category_list.html:110
 msgid "We provide expert support in:"
@@ -151,10 +180,9 @@ msgstr "Adresimiz"
 msgid "Phone Number"
 msgstr "Telefon Numarası"
 
-#: .\website\templates\website\contacts.html:52
-msgid "Email"
-msgstr "E-posta"
-
 #: .\website\templates\website\contacts.html:58
 msgid "Find us on the map"
 msgstr "Haritada bizi bulun"
+
+#~ msgid "Email"
+#~ msgstr "E-posta"

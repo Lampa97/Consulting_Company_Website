@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     "website.apps.WebsiteConfig",
     "users",
 ]
+# Custom 404 handler
+HANDLER404 = 'config.views.custom_404_view'
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
