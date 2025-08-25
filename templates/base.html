@@ -45,8 +45,6 @@
       }
       main {
         flex: 1 0 auto;
-        display: flex;
-        flex-direction: column;
       }
       .navbar {
         background-color: #0d1b2a; /* dark blue */
@@ -69,7 +67,9 @@
         color: #f8f9fa;
         padding: 20px 0;
         text-align: center;
-        margin-top: 40px;
+        margin-top: 0;
+        position: relative;
+        width: 100%;
       }
       .btn-custom {
         background-color: #495057; /* silver-dark */
@@ -115,7 +115,6 @@
               <a class="nav-link" href="{% url 'website:contact' %}">{% trans "Contacts" %}</a>
             </li>
             <li class="nav-item dropdown ms-3">
-              <!-- Языковой переключатель удалён из хедера -->
             </li>
           </ul>
         </div>
@@ -123,14 +122,14 @@
     </nav>
 
     <!-- Content -->
-    <main class="container py-5">
+  <main class="container py-5" style="flex:1 0 auto;">
       {% block content %}
 
       {% endblock %}
     </main>
 
     <!-- Footer -->
-    <footer style="margin-top: auto;">
+  <footer>
       <div class="container">
         <p>&copy; 2025 C.A.F. All rights reserved.</p>
       </div>
