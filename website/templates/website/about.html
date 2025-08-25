@@ -1,3 +1,57 @@
 {% extends 'base.html' %}
+{% load static %}
 
-{% block title %}About Us{% endblock %}
+{% block title %}
+  About Us
+{% endblock %}
+
+{% block content %}
+  <div class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-md-7">
+        <div class="card shadow-lg border-0 p-4 mb-4" style="background: #f4f8fb; border-radius: 18px;">
+          <div class="card-body">
+            <h1 class="card-title mb-3 fw-bold" style="font-size:2.5rem; color:#212325ff;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#212325ff" class="bi bi-briefcase-fill me-2" viewBox="0 0 16 16">
+                <path d="M6.5 0a.5.5 0 0 0-.5.5V2H3a2 2 0 0 0-2 2v1h14V4a2 2 0 0 0-2-2h-3V.5a.5.5 0 0 0-.5-.5h-2zm1 2V1h1v1h-1z" />
+                <path d="M0 7v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7H0zm4.5 2a.5.5 0 0 1 .5.5V11a.5.5 0 0 1-1 0V9.5a.5.5 0 0 1 .5-.5zm7 0a.5.5 0 0 1 .5.5V11a.5.5 0 0 1-1 0V9.5a.5.5 0 0 1 .5-.5z" />
+              </svg>What makes us unique
+            </h1>
+            <h5 class="text-secondary mb-4">Empowering your business with expertise and innovation</h5>
+            <ul class="list-unstyled mb-4">
+              <li class="mb-2">
+                <span class="text-success me-2">&#10003;</span> Expert support in grants, incentives, and investments
+              </li>
+              <li class="mb-2">
+                <span class="text-success me-2">&#10003;</span> Deep industry knowledge: tourism, agriculture, logistics, education, technology
+              </li>
+              <li class="mb-2">
+                <span class="text-success me-2">&#10003;</span> Tailored solutions for sustainable growth
+              </li>
+              <li class="mb-2">
+                <span class="text-success me-2">&#10003;</span> Innovation, collaboration, and long-term partnerships
+              </li>
+            </ul>
+      <p class="lead text-dark mb-3">Our consulting firm specializes in guiding businesses, entrepreneurs, and organizations through complex grant, incentive, and investment programs. We provide expert support in areas such as investment incentives, trade subsidies, agricultural and rural development projects, renewable energy, and EU-funded programs.</p>
+      <div class="p-4 mb-2" style="background: #e9f5ff; border-left: 5px solid #0d6efd; border-radius: 10px;">
+        <div class="d-flex align-items-start mb-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#0d6efd" class="me-2" viewBox="0 0 16 16">
+            <path d="M8 3a5 5 0 1 0 0 10A5 5 0 0 0 8 3zm0 1a4 4 0 1 1 0 8A4 4 0 0 1 8 4zm.93 2.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 .877-.252 1.02-.598l.088-.416c.066-.308.118-.438.288-.438.17 0 .232.13.288.438l.088.416c.143.346.475.598 1.02.598.703 0 1.002-.422.808-1.319l-.738-3.468c-.064-.293-.006-.399.288-.469l.45-.083-.082-.38-2.29-.287z"/>
+          </svg>
+          <span class="fw-semibold" style="color:#0d6efd; font-size:1.1rem;">Our Approach</span>
+        </div>
+        <blockquote class="blockquote mb-0" style="border-left:none;">
+          <p class="text-secondary mb-0" style="font-size:1.05rem;">
+            We help our clients access funding opportunities, optimize project strategies, and achieve sustainable growth. Our team combines deep knowledge of regulations with practical experience to deliver tailored solutions for every client.
+          </p>
+        </blockquote>
+      </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 text-center">
+        <img src="{% static 'images/logo.jpg' %}" alt="Consulting Team" class="img-fluid rounded shadow-lg" style="max-height:320px;" />
+      </div>
+    </div>
+  </div>
+{% endblock %}
