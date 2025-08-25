@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: .\templates\base.html:10
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-25 10:26+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: .\templates\base.html:102
+msgid "Empowering Growth. Enabling Success."
+msgstr "Wachstum fördern. Erfolg ermöglichen."
+
+#: .\templates\base.html:109
+msgid "Services"
+msgstr "Leistungen"
+
+#: .\templates\base.html:112
+msgid "About us"
+msgstr "Über uns"
+
+#: .\templates\base.html:115
+msgid "Contacts"
+msgstr "Kontakt"
+
+#: .\website\templates\website\about.html:7
+msgid "About Us"
+msgstr "Über uns"
+
+#: .\website\templates\website\about.html:20
+msgid "What makes us unique"
+msgstr "Was uns einzigartig macht"
+
+#: .\website\templates\website\about.html:22
+msgid "Empowering your business with expertise and innovation"
+msgstr "Wir stärken Ihr Unternehmen mit Fachwissen und Innovation"
+
+#: .\website\templates\website\about.html:25
+msgid "Expert support in grants, incentives, and investments"
+msgstr "Fachkundige Unterstützung bei Zuschüssen, Förderungen und Investitionen"
+
+#: .\website\templates\website\about.html:28
+msgid ""
+"Deep industry knowledge: tourism, agriculture, logistics, education, "
+"technology"
+msgstr "Tiefes Branchenwissen: Tourismus, Landwirtschaft, Logistik, Bildung, Technologie"
+
+#: .\website\templates\website\about.html:31
+msgid "Tailored solutions for sustainable growth"
+msgstr "Maßgeschneiderte Lösungen für nachhaltiges Wachstum"
+
+#: .\website\templates\website\about.html:34
+msgid "Innovation, collaboration, and long-term partnerships"
+msgstr "Innovation, Zusammenarbeit und langfristige Partnerschaften"
+
+#: .\website\templates\website\about.html:37
+msgid ""
+"Our consulting firm specializes in guiding businesses, entrepreneurs, and "
+"organizations through complex grant, incentive, and investment programs. We "
+"provide expert support in areas such as investment incentives, trade "
+"subsidies, agricultural and rural development projects, renewable energy, "
+"and EU-funded programs."
+msgstr "Unsere Beratungsfirma unterstützt Unternehmen, Unternehmer und Organisationen bei komplexen Förder-, Anreiz- und Investitionsprogrammen. Wir bieten fachkundige Unterstützung in Bereichen wie Investitionsanreizen, Handelssubventionen, landwirtschaftlichen und ländlichen Entwicklungsprojekten, erneuerbaren Energien und EU-geförderten Programmen."
+
+#: .\website\templates\website\about.html:43
+msgid "Our Approach"
+msgstr "Unser Ansatz"
+
+#: .\website\templates\website\about.html:47
+msgid ""
+"We help our clients access funding opportunities, optimize project "
+"strategies, and achieve sustainable growth. Our team combines deep knowledge "
+"of regulations with practical experience to deliver tailored solutions for "
+"every client."
+msgstr "Wir helfen unseren Kunden, Fördermöglichkeiten zu nutzen, Projektstrategien zu optimieren und nachhaltiges Wachstum zu erreichen. Unser Team verbindet fundiertes Wissen über Vorschriften mit praktischer Erfahrung, um für jeden Kunden maßgeschneiderte Lösungen zu bieten."
+
+#: .\website\templates\website\category_detail.html:123
+msgid "Back to all services"
+msgstr "Zurück zu allen Leistungen"
+
+#: .\website\templates\website\category_list.html:88
+msgid "Category List"
+msgstr "Kategorienliste"
+
+#: .\website\templates\website\category_list.html:92
+msgid "What we offer"
+msgstr "Unser Angebot"
+
+#: .\website\templates\website\category_list.html:109
+msgid ""
+"C.A.F is a consulting company helping businesses, entrepreneurs, and "
+"organizations navigate complex grant, incentive, and investment programs."
+msgstr "C.A.F ist eine Beratungsfirma, die Unternehmen, Unternehmern und Organisationen hilft, komplexe Förder-, Anreiz- und Investitionsprogramme zu meistern."
+
+#: .\website\templates\website\category_list.html:110
+msgid "We provide expert support in:"
+msgstr "Wir bieten fachkundige Unterstützung in:"
+
+#: .\website\templates\website\category_list.html:114
+msgid "Investment incentives"
+msgstr "Investitionsanreize"
+
+#: .\website\templates\website\category_list.html:115
+msgid "Trade subsidies"
+msgstr "Handelssubventionen"
+
+#: .\website\templates\website\category_list.html:116
+msgid "Rural development"
+msgstr "Ländliche Entwicklung"
+
+#: .\website\templates\website\category_list.html:117
+msgid "Renewable energy"
+msgstr "Erneuerbare Energien"
+
+#: .\website\templates\website\category_list.html:118
+msgid "EU-funded programs"
+msgstr "EU-geförderte Programme"
+
+#: .\website\templates\website\category_list.html:119
+msgid "And more — empowering your growth with knowledge and experience"
+msgstr "Und mehr – wir fördern Ihr Wachstum mit Wissen und Erfahrung"
+
+#: .\website\templates\website\category_list.html:133
+msgid "Read more"
+msgstr "Mehr erfahren"
+
+#: .\website\templates\website\category_list.html:140
+msgid "No categories found."
+msgstr "Keine Kategorien gefunden."
+
+#: .\website\templates\website\contacts.html:44
+msgid "Please Contact Us"
+msgstr "Bitte kontaktieren Sie uns"
+
+#: .\website\templates\website\contacts.html:48
+msgid "Our Address"
+msgstr "Unsere Adresse"
+
+#: .\website\templates\website\contacts.html:50
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+#: .\website\templates\website\contacts.html:52
+msgid "Email"
+msgstr "E-Mail"
+
+#: .\website\templates\website\contacts.html:58
+msgid "Find us on the map"
+msgstr "Finden Sie uns auf der Karte"
