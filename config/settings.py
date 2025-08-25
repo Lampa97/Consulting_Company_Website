@@ -25,7 +25,7 @@ ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD")
 
 
 # Internationalization: centralized locale folder
-LOCALE_PATHS = [BASE_DIR / 'locale']
+LOCALE_PATHS = [BASE_DIR / "locale"]
 # Application definition
 
 INSTALLED_APPS = [
