@@ -120,7 +120,6 @@ CSRF_TRUSTED_ORIGINS = [
 SERVER_IP = os.getenv("SERVER_IP")
 DOMAIN_NAME = os.getenv("DOMAIN_NAME")
 
-SECURE_SSL_REDIRECT = True
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
