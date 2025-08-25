@@ -138,7 +138,25 @@
     <!-- Floating contact icons -->
     <style>
   /* Фикс для кликабельности dropdown-menu поверх кастомных стилей */
-  .dropdown-menu { position: absolute !important; z-index: 1050 !important; }
+  .dropdown-menu {
+    position: absolute !important;
+    z-index: 1050 !important;
+    background: #f8f9fa !important;
+    color: #232b3e !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 24px 0 rgba(34,40,49,0.10);
+    border: 1.5px solid #e3e6ea;
+  }
+  .dropdown-menu .dropdown-item {
+    color: #232b3e !important;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: background 0.2s;
+  }
+  .dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:focus {
+    background: #e3e6ea !important;
+    color: #0d1b2a !important;
+  }
       .floating-contacts {
         position: fixed;
         right: 24px;
