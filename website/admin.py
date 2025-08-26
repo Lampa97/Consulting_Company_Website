@@ -7,6 +7,6 @@ from .models import Category
 
 @admin.register(Category)
 class CategoryAdmin(TranslationAdmin):
-    list_display = ("title", "short_description", "slug", "order_number")
+    list_display = ("order_number", "title", "short_description", "slug",)
     search_fields = ("title", "slug")
     ordering = ("order_number",)
