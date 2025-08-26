@@ -17,18 +17,31 @@ class Category(models.Model):
     def save(self, *args, **kwargs):
         self.slug = slugify(self.title)
         if self.order_number is not None:
-            # Проверяем, есть ли объект с таким же order_number
-            conflict = Category.objects.filter(order_number=self.order_number)
             if self.pk:
-                conflict = conflict.exclude(pk=self.pk)
-            if conflict.exists():
-                # Сдвигаем только если есть конфликт
-                qs = Category.objects.filter(order_number__gte=self.order_number)
-                if self.pk:
-                    qs = qs.exclude(pk=self.pk)
-                for cat in qs.order_by('-order_number'):
-                    cat.order_number += 1
-                    cat.save()
+                # Обновление существующего объекта
+                old = Category.objects.get(pk=self.pk)
+                if old.order_number != self.order_number:
+                    if self.order_number < old.order_number:
+                        # Сдвигаем вверх все между новым и старым (включительно новый, не включая старый)
+                        Category.objects.filter(
+                            order_number__gte=self.order_number,
+                            order_number__lt=old.order_number
+                        ).exclude(pk=self.pk).order_by('-order_number').update(order_number=models.F('order_number') + 1)
+                    else:
+                        # Сдвигаем вниз все между старым и новым (включительно старый, не включая новый)
+                        Category.objects.filter(
+                            order_number__gt=old.order_number,
+                            order_number__lte=self.order_number
+                        ).exclude(pk=self.pk).order_by('order_number').update(order_number=models.F('order_number') - 1)
+            else:
+                # Новый объект: сдвигаем только если есть конфликт
+                conflict = Category.objects.filter(order_number=self.order_number)
+                if conflict.exists():
+                    total = Category.objects.count() + 1
+                    qs = Category.objects.filter(order_number__gte=self.order_number, order_number__lte=total)
+                    for cat in qs.order_by('-order_number'):
+                        cat.order_number += 1
+                        cat.save()
         super().save(*args, **kwargs)
 
     class Meta:
