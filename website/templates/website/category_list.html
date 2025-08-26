@@ -121,12 +121,28 @@
       box-shadow: 0 2px 8px 0 rgba(60, 60, 60, 0.04);
       backdrop-filter: blur(1.5px);">
       <div class="d-flex flex-column align-items-center mb-2">
-        <div class="mb-2 category-card d-flex align-items-center justify-content-center" style="min-height:260px; max-width:100%;">
-          <img src="{% static 'images/new-logo.jpg' %}" alt="Company Logo" style="width:100%;height:100%;object-fit:contain;max-width:100%;max-height:100%;">
+        <div class="mb-2">
+          <img src="{% static 'images/new-logo.jpg' %}" alt="Company Logo" class="caf-logo-responsive">
         </div>
+        <p class="lead mb-2" style="font-size:1.18rem;">
+          {% trans "C.A.F is your trusted partner in securing grants, incentives, and investment opportunities. We simplify complex programs and help your business turn funding into real growth." %}
+        </p>
       </div>
+      <ul class="row list-unstyled text-secondary mb-0" style="max-width:700px;margin:0 auto;">
+        <li class="col-12 col-md-6 mb-1"><span class="text-success me-2">&#10003;</span> {% trans "Investment Incentive Certificates & Land Allocation" %}</li>
+        <li class="col-12 col-md-6 mb-1"><span class="text-success me-2">&#10003;</span> {% trans "Ministry of Trade Grants & Export Supports" %}</li>
+        <li class="col-12 col-md-6 mb-1"><span class="text-success me-2">&#10003;</span> {% trans "KOSGEB Programs for SMEs and Entrepreneurs" %}</li>
+        <li class="col-12 col-md-6 mb-1"><span class="text-success me-2">&#10003;</span> {% trans "Agricultural & Rural Development Funds (IPARD/TKDK)" %}</li>
+        <li class="col-12 col-md-6 mb-1"><span class="text-success me-2">&#10003;</span> {% trans "TÜBİTAK R&D and Innovation Projects" %}</li>
+        <li class="col-12 col-md-6 mb-1"><span class="text-success me-2">&#10003;</span> {% trans "EU-Funded Programs (Horizon, Erasmus+, etc.)" %}</li>
+        <li class="col-12 col-md-12 mb-1"><span class="text-success me-2">&#10003;</span> {% trans "Renewable Energy & Green Transition Incentives" %}</li>
+      </ul>
+      <p class="mt-3 mb-0 text-secondary" style="font-size:0.98rem;">
+        {% trans "From eligibility checks to applications, reporting, and audits — we manage the full process with you." %}
+      </p>
     </div>
   </div>
+</div>
   <div class="row g-4">
     {% for category in categories %}
       <div class="col-12 col-md-6 fade-in">
