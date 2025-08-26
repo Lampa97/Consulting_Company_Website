@@ -26,13 +26,13 @@ class Category(models.Model):
                         Category.objects.filter(
                             order_number__gte=self.order_number,
                             order_number__lt=old.order_number
-                        ).exclude(pk=self.pk).order_by('-order_number').update(order_number=models.F('order_number') + 1)
+                        ).exclude(pk=self.pk).order_by('-order_number').update(order_number=models.F('order_number')+1)
                     else:
                         # Сдвигаем вниз все между старым и новым (включительно старый, не включая новый)
                         Category.objects.filter(
                             order_number__gt=old.order_number,
                             order_number__lte=self.order_number
-                        ).exclude(pk=self.pk).order_by('order_number').update(order_number=models.F('order_number') - 1)
+                        ).exclude(pk=self.pk).order_by('order_number').update(order_number=models.F('order_number')-1)
             else:
                 # Новый объект: сдвигаем только если есть конфликт
                 conflict = Category.objects.filter(order_number=self.order_number)
