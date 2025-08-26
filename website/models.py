@@ -16,6 +16,15 @@ class Category(models.Model):
 
     def save(self, *args, **kwargs):
         self.slug = slugify(self.title)
+        if self.order_number is not None:
+            qs = Category.objects.filter(order_number__gte=self.order_number)
+            if self.pk:
+                qs = qs.exclude(pk=self.pk)
+            if qs.exists():
+                # Сдвигаем все order_number >= текущего на 1
+                for cat in qs.order_by('-order_number'):
+                    cat.order_number += 1
+                    cat.save()
         super().save(*args, **kwargs)
 
     class Meta:
