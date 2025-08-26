@@ -1,0 +1,10 @@
+<!-- Turkey flag SVG, modern and accessible -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <g fill="none">
+    <rect width="640" height="480" fill="#e30a17"/>
+    <circle cx="280" cy="240" r="120" fill="#fff"/>
+    <circle cx="300" cy="240" r="96" fill="#e30a17"/>
+    <circle cx="370" cy="240" r="40" fill="#fff"/>
+    <polygon fill="#fff" points="396,240 354,258 370,216 370,264 354,222"/>
+  </g>
+</svg>
