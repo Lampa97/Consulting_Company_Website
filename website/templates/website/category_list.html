@@ -28,6 +28,15 @@
     z-index: 1;
     transition: opacity 0.2s;
   }
+  /* Мобильная версия: делаем изображение ниже */
+  @media (max-width: 600px) {
+    .category-card-bg {
+      height: 180px;
+    }
+    .category-card {
+      min-height: 200px;
+    }
+  }
   .category-card:hover .category-card-bg {
     opacity: 0.38;
   }
@@ -100,7 +109,7 @@
       backdrop-filter: blur(1.5px);">
       <div class="d-flex flex-column align-items-center mb-2">
         <div class="mb-2">
-          <img src="{% static 'images/logo.jpg' %}" alt="Company Logo" style="height:450px;max-width:350px;object-fit:contain;filter:drop-shadow(0 2px 8px rgba(34,40,49,0.10));">
+          <img src="{% static 'images/logo.jpg' %}" alt="Company Logo" style="height:600px;max-width:500px;object-fit:contain;filter:drop-shadow(0 2px 8px rgba(34,40,49,0.10));">
         </div>
         <p class="lead mb-2" style="font-size:1.18rem;">
           {% trans "C.A.F is your trusted partner in securing grants, incentives, and investment opportunities. We simplify complex programs and help your business turn funding into real growth." %}
