@@ -109,7 +109,22 @@
       backdrop-filter: blur(1.5px);">
       <div class="d-flex flex-column align-items-center mb-2">
         <div class="mb-2">
-          <img src="{% static 'images/logo.jpg' %}" alt="Company Logo" style="height:600px;max-width:500px;object-fit:contain;filter:drop-shadow(0 2px 8px rgba(34,40,49,0.10));">
+          <img src="{% static 'images/logo.jpg' %}" alt="Company Logo" class="caf-logo-responsive">
+<style>
+  .caf-logo-responsive {
+    height: 320px;
+    max-width: 320px;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 8px rgba(34,40,49,0.10));
+    transition: height 0.2s, max-width 0.2s;
+  }
+  @media (max-width: 600px) {
+    .caf-logo-responsive {
+      height: 120px;
+      max-width: 90vw;
+    }
+  }
+</style>
         </div>
         <p class="lead mb-2" style="font-size:1.18rem;">
           {% trans "C.A.F is your trusted partner in securing grants, incentives, and investment opportunities. We simplify complex programs and help your business turn funding into real growth." %}
