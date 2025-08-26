@@ -12,7 +12,7 @@ class CategoryListView(ListView):
     context_object_name = "categories"
 
     def get_queryset(self):
-        return Category.objects.all().order_by("title")
+        return Category.objects.all().order_by("order_number")
 
 
 class CategoryCreateView(CreateView):

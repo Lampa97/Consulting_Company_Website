@@ -9,6 +9,7 @@ class Category(models.Model):
     description = models.TextField()
     background_image = models.ImageField(upload_to="category_backgrounds/")
     image = models.ImageField(upload_to="category_images/")
+    order_number = models.PositiveIntegerField(unique=True, null=True, blank=True)
 
     def __str__(self):
         return self.title
