@@ -3,13 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#: .\templates\base.html:10
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-25 11:35+0300\n"
+"POT-Creation-Date: 2025-08-26 10:10+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,10 +17,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-
 #: .\templates\404.html:5
 msgid "Page Not Found"
-msgstr "Sayfa bulunamadı"
+msgstr "Sayfa Bulunamadı"
 
 #: .\templates\404.html:12
 msgid "Page not found"
@@ -33,144 +31,137 @@ msgstr "Üzgünüz, aradığınız sayfa mevcut değil veya taşınmış."
 
 #: .\templates\404.html:14
 msgid "Back to Home"
-msgstr "Ana sayfaya dön"
+msgstr "Ana Sayfaya Dön"
 
-#: .\templates\base.html:102
+#: .\templates\base.html:117
 msgid "Empowering Growth. Enabling Success."
-msgstr "Büyümeyi destekliyor, başarıyı mümkün kılıyoruz."
+msgstr "Büyümeyi Güçlendiriyoruz. Başarıyı Sağlıyoruz."
 
-#: .\templates\base.html:109
+#: .\templates\base.html:124
 msgid "Services"
 msgstr "Hizmetler"
 
-#: .\templates\base.html:112
+#: .\templates\base.html:127
 msgid "About us"
 msgstr "Hakkımızda"
 
-#: .\templates\base.html:115
+#: .\templates\base.html:130
 msgid "Contacts"
 msgstr "İletişim"
 
-#: .\website\templates\website\about.html:7
+#: .\website\templates\website\about.html:6
 msgid "About Us"
 msgstr "Hakkımızda"
 
-#: .\website\templates\website\about.html:20
+#: .\website\templates\website\about.html:19
 msgid "What makes us unique"
 msgstr "Bizi benzersiz kılan nedir"
 
-#: .\website\templates\website\about.html:22
-msgid "Empowering your business with expertise and innovation"
-msgstr "İşinizi uzmanlık ve yenilikle güçlendiriyoruz"
+#: .\website\templates\website\about.html:21
+msgid "We turn complex funding programs into measurable results."
+msgstr "Karmaşık fon programlarını ölçülebilir sonuçlara dönüştürüyoruz."
 
-#: .\website\templates\website\about.html:25
-msgid "Expert support in grants, incentives, and investments"
-msgstr "Hibe, teşvik ve yatırımlarda uzman destek"
+#: .\website\templates\website\about.html:24
+msgid "End-to-end support in grants, incentives, and investments"
+msgstr "Hibe, teşvik ve yatırımlarda uçtan uca destek"
 
-#: .\website\templates\website\about.html:28
+#: .\website\templates\website\about.html:27
 msgid ""
-"Deep industry knowledge: tourism, agriculture, logistics, education, "
+"Deep domain expertise across tourism, agriculture, logistics, education, and "
 "technology"
-msgstr "Derin sektör bilgisi: turizm, tarım, lojistik, eğitim, teknoloji"
+msgstr "Turizm, tarım, lojistik, eğitim ve teknoloji alanlarında derin uzmanlık"
 
-#: .\website\templates\website\about.html:31
-msgid "Tailored solutions for sustainable growth"
-msgstr "Sürdürülebilir büyüme için özel çözümler"
+#: .\website\templates\website\about.html:30
+msgid "Tailored strategies focused on eligibility, impact, and ROI"
+msgstr "Uygunluk, etki ve yatırım getirisine odaklanan özel stratejiler"
 
-#: .\website\templates\website\about.html:34
-msgid "Innovation, collaboration, and long-term partnerships"
-msgstr "İnovasyon, iş birliği ve uzun vadeli ortaklıklar"
+#: .\website\templates\website\about.html:33
+msgid "Collaborative delivery, transparent process, long-term partnerships"
+msgstr "İş birliğine dayalı teslimat, şeffaf süreç, uzun vadeli ortaklıklar"
 
-#: .\website\templates\website\about.html:37
+#: .\website\templates\website\about.html:36
 msgid ""
-"Our consulting firm specializes in guiding businesses, entrepreneurs, and "
-"organizations through complex grant, incentive, and investment programs. We "
-"provide expert support in areas such as investment incentives, trade "
-"subsidies, agricultural and rural development projects, renewable energy, "
-"and EU-funded programs."
-msgstr ""
-"Danışmanlık firmamız, işletmeleri, girişimcileri ve organizasyonları "
-"karmaşık hibe, teşvik ve yatırım programlarında yönlendirme konusunda "
-"uzmandır. Yatırım teşvikleri, ticaret sübvansiyonları, tarım ve kırsal "
-"kalkınma projeleri, yenilenebilir enerji ve AB destekli programlar gibi "
-"alanlarda uzman destek sağlıyoruz."
+"We help businesses, entrepreneurs, and institutions access the right funding "
+"at the right time—covering investment incentives, trade supports, "
+"agricultural and rural programs, renewable energy, EU-funded initiatives, "
+"and TÜBİTAK R&D. Our role is to simplify decisions and accelerate execution."
+msgstr "İşletmelerin, girişimcilerin ve kurumların doğru zamanda doğru finansmana erişmesine yardımcı oluyoruz—yatırım teşvikleri, ticaret destekleri, tarım ve kırsal programlar, yenilenebilir enerji, AB destekli girişimler ve TÜBİTAK Ar-Ge dahil. Rolümüz kararları basitleştirmek ve uygulamayı hızlandırmaktır."
 
-#: .\website\templates\website\about.html:43
+#: .\website\templates\website\about.html:42
 msgid "Our Approach"
 msgstr "Yaklaşımımız"
 
-#: .\website\templates\website\about.html:47
+#: .\website\templates\website\about.html:46
 msgid ""
-"We help our clients access funding opportunities, optimize project "
-"strategies, and achieve sustainable growth. Our team combines deep knowledge "
-"of regulations with practical experience to deliver tailored solutions for "
-"every client."
-msgstr ""
-"Müşterilerimizin finansman fırsatlarına erişmesini, proje stratejilerini "
-"optimize etmesini ve sürdürülebilir büyüme elde etmesini sağlıyoruz. "
-"Ekibimiz, mevzuat konusundaki derin bilgiyi pratik deneyimle birleştirerek "
-"her müşteri için özel çözümler sunar."
+"Eligibility first, paperwork next, results always. We align your goals with "
+"the right instruments, prepare winning applications, and stay with you "
+"through implementation, reporting, and audits."
+msgstr "Önce uygunluk, sonra evrak, her zaman sonuç. Hedeflerinizi doğru araçlarla eşleştirir, kazandıran başvurular hazırlar ve uygulama, raporlama ve denetim boyunca yanınızda oluruz."
 
-#: .\website\templates\website\category_detail.html:124
+#: .\website\templates\website\about.html:54
+msgid "Consulting Team"
+msgstr "Danışmanlık Ekibi"
+
+#: .\website\templates\website\category_detail.html:125
 msgid "Back to all services"
 msgstr "Tüm hizmetlere geri dön"
 
-#: .\website\templates\website\category_list.html:88
-msgid "Category List"
-msgstr "Kategori Listesi"
+#: .\website\templates\website\category_list.html:89
+msgid "Service List"
+msgstr "Hizmet Listesi"
 
-#: .\website\templates\website\category_list.html:92
-msgid "What we offer"
-msgstr "Neler sunuyoruz"
-
-#: .\website\templates\website\category_list.html:109
+#: .\website\templates\website\category_list.html:112
 msgid ""
-"C.A.F is a consulting company helping businesses, entrepreneurs, and "
-"organizations navigate complex grant, incentive, and investment programs."
-msgstr ""
-"C.A.F, işletmelerin, girişimcilerin ve organizasyonların karmaşık hibe, "
-"teşvik ve yatırım programlarında yolunu bulmasına yardımcı olan bir "
-"danışmanlık şirketidir."
-
-#: .\website\templates\website\category_list.html:110
-msgid "We provide expert support in:"
-msgstr "Uzman desteği sağladığımız alanlar:"
-
-#: .\website\templates\website\category_list.html:114
-msgid "Investment incentives"
-msgstr "Yatırım teşvikleri"
-
-#: .\website\templates\website\category_list.html:115
-msgid "Trade subsidies"
-msgstr "Ticaret sübvansiyonları"
+"C.A.F is your trusted partner in securing grants, incentives, and investment "
+"opportunities. We simplify complex programs and help your business turn "
+"funding into real growth."
+msgstr "C.A.F, hibe, teşvik ve yatırım fırsatlarında güvenilir ortağınızdır. Karmaşık programları basitleştirir ve işletmenizin fonları gerçek büyümeye dönüştürmesine yardımcı oluruz."
 
 #: .\website\templates\website\category_list.html:116
-msgid "Rural development"
-msgstr "Kırsal kalkınma"
+msgid "Investment Incentive Certificates & Land Allocation"
+msgstr "Yatırım Teşvik Belgeleri & Arazi Tahsisi"
 
 #: .\website\templates\website\category_list.html:117
-msgid "Renewable energy"
-msgstr "Yenilenebilir enerji"
+msgid "Ministry of Trade Grants & Export Supports"
+msgstr "Ticaret Bakanlığı Hibeleri & İhracat Destekleri"
 
 #: .\website\templates\website\category_list.html:118
-msgid "EU-funded programs"
-msgstr "AB destekli programlar"
+msgid "KOSGEB Programs for SMEs and Entrepreneurs"
+msgstr "KOBİ ve Girişimciler için KOSGEB Programları"
 
 #: .\website\templates\website\category_list.html:119
-msgid "And more — empowering your growth with knowledge and experience"
-msgstr "Ve daha fazlası — büyümenizi bilgi ve deneyimle destekliyoruz"
+msgid "Agricultural & Rural Development Funds (IPARD/TKDK)"
+msgstr "Tarım & Kırsal Kalkınma Fonları (IPARD/TKDK)"
 
-#: .\website\templates\website\category_list.html:133
+#: .\website\templates\website\category_list.html:120
+msgid "TÜBİTAK R&D and Innovation Projects"
+msgstr "TÜBİTAK Ar-Ge ve İnovasyon Projeleri"
+
+#: .\website\templates\website\category_list.html:121
+msgid "EU-Funded Programs (Horizon, Erasmus+, etc.)"
+msgstr "AB Destekli Programlar (Ufuk, Erasmus+ vb.)"
+
+#: .\website\templates\website\category_list.html:122
+msgid "Renewable Energy & Green Transition Incentives"
+msgstr "Yenilenebilir Enerji & Yeşil Dönüşüm Teşvikleri"
+
+#: .\website\templates\website\category_list.html:125
+msgid ""
+"From eligibility checks to applications, reporting, and audits — we manage "
+"the full process with you."
+msgstr "Uygunluk kontrollerinden başvurulara, raporlamadan denetime kadar tüm süreci sizinle birlikte yönetiyoruz."
+
+#: .\website\templates\website\category_list.html:139
 msgid "Read more"
-msgstr "Daha fazla bilgi"
+msgstr "Daha fazla oku"
 
-#: .\website\templates\website\category_list.html:140
+#: .\website\templates\website\category_list.html:146
 msgid "No categories found."
 msgstr "Kategori bulunamadı."
 
 #: .\website\templates\website\contacts.html:44
 msgid "Please Contact Us"
-msgstr "Lütfen bizimle iletişime geçin"
+msgstr "Lütfen Bizimle İletişime Geçin"
 
 #: .\website\templates\website\contacts.html:48
 msgid "Our Address"
@@ -183,6 +174,3 @@ msgstr "Telefon Numarası"
 #: .\website\templates\website\contacts.html:58
 msgid "Find us on the map"
 msgstr "Haritada bizi bulun"
-
-#~ msgid "Email"
-#~ msgstr "E-posta"

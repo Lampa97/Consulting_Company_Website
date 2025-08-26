@@ -83,44 +83,50 @@
 
 {% extends 'base.html' %}
 {% load i18n %}
+{% load static %}
 
 {% block title %}
   {% trans "Service List" %}
 {% endblock %}
 
 {% block content %}
-  <h1 class="text-center mb-4">{% trans "What we offer" %}</h1>
-  <div class="row justify-content-center mb-4">
-    <div class="col-lg-8 fade-in">
-      <div class="rounded shadow-sm p-3 p-md-4 text-center position-relative" style="
-        background: linear-gradient(120deg, #e3eafc 0%, #f5f7fa 60%, #cfd2d6 100%);
-        border-radius: 16px;
-        border: 1.2px solid #e3e6ea;
-        box-shadow: 0 2px 8px 0 rgba(60, 60, 60, 0.04);
-        backdrop-filter: blur(1.5px);">
-        <div class="d-flex flex-column align-items-center mb-2">
-          <span class="mb-2" style="font-size:2.2rem;color:#232b3e;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#232b3e" class="bi bi-lightbulb" viewBox="0 0 16 16">
-              <path d="M2 6a6 6 0 1 1 12 0c0 2.318-1.319 4.197-2.5 5.605V13a1 1 0 0 1-1 1h-3a1 1 0 0 1-1-1v-1.395C3.319 10.197 2 8.318 2 6zm6-5a5 5 0 0 0-5 5c0 2.136 1.21 3.872 2.5 5.197V13a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2v-1.803C12.79 8.872 14 7.136 14 5a5 5 0 0 0-5-5z"/>
-              <path d="M7 13.5a.5.5 0 0 1 1 0V14a.5.5 0 0 1-1 0v-.5z"/>
-            </svg>
-          </span>
-          <p class="lead mb-2" style="font-size:1.18rem;">
-            {% trans "C.A.F is a consulting company helping businesses, entrepreneurs, and organizations navigate complex grant, incentive, and investment programs." %}<br>
-            {% trans "We provide expert support in:" %}
-          </p>
+<div class="row justify-content-center mb-4">
+  <div class="col-lg-8 fade-in">
+    <div class="rounded shadow-sm p-3 p-md-4 text-center position-relative" style="
+      background: linear-gradient(120deg, #e3eafc 0%, #f5f7fa 60%, #cfd2d6 100%);
+      border-radius: 16px;
+      border: 1.2px solid #e3e6ea;
+      box-shadow: 0 2px 8px 0 rgba(60, 60, 60, 0.04);
+      backdrop-filter: blur(1.5px);">
+      <div class="d-flex flex-column align-items-center mb-2">
+        <span class="mb-2" style="font-size:2.2rem;color:#232b3e;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#232b3e" class="bi bi-lightbulb" viewBox="0 0 16 16">
+            <path d="M2 6a6 6 0 1 1 12 0c0 2.318-1.319 4.197-2.5 5.605V13a1 1 0 0 1-1 1h-3a1 1 0 0 1-1-1v-1.395C3.319 10.197 2 8.318 2 6zm6-5a5 5 0 0 0-5 5c0 2.136 1.21 3.872 2.5 5.197V13a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2v-1.803C12.79 8.872 14 7.136 14 5a5 5 0 0 0-5-5z"/>
+            <path d="M7 13.5a.5.5 0 0 1 1 0V14a.5.5 0 0 1-1 0v-.5z"/>
+          </svg>
+        </span>
+        <div class="mb-2">
+          <img src="{% static 'images/logo.jpg' %}" alt="Company Logo" style="height:48px;max-width:90px;object-fit:contain;filter:drop-shadow(0 2px 8px rgba(34,40,49,0.10));">
         </div>
-        <ul class="row list-unstyled text-secondary mb-0" style="max-width:700px;margin:0 auto;">
-          <li class="col-12 col-md-6 mb-1"><span class="text-success me-2">&#10003;</span> {% trans "Investment incentives" %}</li>
-          <li class="col-12 col-md-6 mb-1"><span class="text-success me-2">&#10003;</span> {% trans "Trade subsidies" %}</li>
-          <li class="col-12 col-md-6 mb-1"><span class="text-success me-2">&#10003;</span> {% trans "Rural development" %}</li>
-          <li class="col-12 col-md-6 mb-1"><span class="text-success me-2">&#10003;</span> {% trans "Renewable energy" %}</li>
-          <li class="col-12 col-md-6 mb-1"><span class="text-success me-2">&#10003;</span> {% trans "EU-funded programs" %}</li>
-          <li class="col-12 col-md-6 mb-1"><span class="text-success me-2">&#10003;</span> {% trans "And more — empowering your growth with knowledge and experience" %}</li>
-        </ul>
+        <p class="lead mb-2" style="font-size:1.18rem;">
+          {% trans "C.A.F is your trusted partner in securing grants, incentives, and investment opportunities. We simplify complex programs and help your business turn funding into real growth." %}
+        </p>
       </div>
+      <ul class="row list-unstyled text-secondary mb-0" style="max-width:700px;margin:0 auto;">
+        <li class="col-12 col-md-6 mb-1"><span class="text-success me-2">&#10003;</span> {% trans "Investment Incentive Certificates & Land Allocation" %}</li>
+        <li class="col-12 col-md-6 mb-1"><span class="text-success me-2">&#10003;</span> {% trans "Ministry of Trade Grants & Export Supports" %}</li>
+        <li class="col-12 col-md-6 mb-1"><span class="text-success me-2">&#10003;</span> {% trans "KOSGEB Programs for SMEs and Entrepreneurs" %}</li>
+        <li class="col-12 col-md-6 mb-1"><span class="text-success me-2">&#10003;</span> {% trans "Agricultural & Rural Development Funds (IPARD/TKDK)" %}</li>
+        <li class="col-12 col-md-6 mb-1"><span class="text-success me-2">&#10003;</span> {% trans "TÜBİTAK R&D and Innovation Projects" %}</li>
+        <li class="col-12 col-md-6 mb-1"><span class="text-success me-2">&#10003;</span> {% trans "EU-Funded Programs (Horizon, Erasmus+, etc.)" %}</li>
+        <li class="col-12 col-md-12 mb-1"><span class="text-success me-2">&#10003;</span> {% trans "Renewable Energy & Green Transition Incentives" %}</li>
+      </ul>
+      <p class="mt-3 mb-0 text-secondary" style="font-size:0.98rem;">
+        {% trans "From eligibility checks to applications, reporting, and audits — we manage the full process with you." %}
+      </p>
     </div>
   </div>
+</div>
   <div class="row g-4">
     {% for category in categories %}
       <div class="col-12 col-md-6 fade-in">

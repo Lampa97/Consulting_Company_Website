@@ -3,13 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#: .\templates\base.html:10
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-25 11:35+0300\n"
+"POT-Creation-Date: 2025-08-26 10:10+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,10 +17,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
 #: .\templates\404.html:5
 msgid "Page Not Found"
-msgstr "Page not found"
+msgstr "Page Not Found"
 
 #: .\templates\404.html:12
 msgid "Page not found"
@@ -35,137 +33,129 @@ msgstr "Sorry, the page you are looking for does not exist or has been moved."
 msgid "Back to Home"
 msgstr "Back to Home"
 
-#: .\templates\base.html:102
+#: .\templates\base.html:117
 msgid "Empowering Growth. Enabling Success."
 msgstr "Empowering Growth. Enabling Success."
 
-#: .\templates\base.html:109
+#: .\templates\base.html:124
 msgid "Services"
 msgstr "Services"
 
-#: .\templates\base.html:112
+#: .\templates\base.html:127
 msgid "About us"
 msgstr "About us"
 
-#: .\templates\base.html:115
+#: .\templates\base.html:130
 msgid "Contacts"
 msgstr "Contacts"
 
-#: .\website\templates\website\about.html:7
+#: .\website\templates\website\about.html:6
 msgid "About Us"
 msgstr "About Us"
 
-#: .\website\templates\website\about.html:20
+#: .\website\templates\website\about.html:19
 msgid "What makes us unique"
 msgstr "What makes us unique"
 
-#: .\website\templates\website\about.html:22
-msgid "Empowering your business with expertise and innovation"
-msgstr "Empowering your business with expertise and innovation"
+#: .\website\templates\website\about.html:21
+msgid "We turn complex funding programs into measurable results."
+msgstr "We turn complex funding programs into measurable results."
 
-#: .\website\templates\website\about.html:25
-msgid "Expert support in grants, incentives, and investments"
-msgstr "Expert support in grants, incentives, and investments"
+#: .\website\templates\website\about.html:24
+msgid "End-to-end support in grants, incentives, and investments"
+msgstr "End-to-end support in grants, incentives, and investments"
 
-#: .\website\templates\website\about.html:28
+#: .\website\templates\website\about.html:27
 msgid ""
-"Deep industry knowledge: tourism, agriculture, logistics, education, "
+"Deep domain expertise across tourism, agriculture, logistics, education, and "
 "technology"
-msgstr ""
-"Deep industry knowledge: tourism, agriculture, logistics, education, "
-"technology"
+msgstr "Deep domain expertise across tourism, agriculture, logistics, education, and technology"
 
-#: .\website\templates\website\about.html:31
-msgid "Tailored solutions for sustainable growth"
-msgstr "Tailored solutions for sustainable growth"
+#: .\website\templates\website\about.html:30
+msgid "Tailored strategies focused on eligibility, impact, and ROI"
+msgstr "Tailored strategies focused on eligibility, impact, and ROI"
 
-#: .\website\templates\website\about.html:34
-msgid "Innovation, collaboration, and long-term partnerships"
-msgstr "Innovation, collaboration, and long-term partnerships"
+#: .\website\templates\website\about.html:33
+msgid "Collaborative delivery, transparent process, long-term partnerships"
+msgstr "Collaborative delivery, transparent process, long-term partnerships"
 
-#: .\website\templates\website\about.html:37
+#: .\website\templates\website\about.html:36
 msgid ""
-"Our consulting firm specializes in guiding businesses, entrepreneurs, and "
-"organizations through complex grant, incentive, and investment programs. We "
-"provide expert support in areas such as investment incentives, trade "
-"subsidies, agricultural and rural development projects, renewable energy, "
-"and EU-funded programs."
-msgstr ""
-"Our consulting firm specializes in guiding businesses, entrepreneurs, and "
-"organizations through complex grant, incentive, and investment programs. We "
-"provide expert support in areas such as investment incentives, trade "
-"subsidies, agricultural and rural development projects, renewable energy, "
-"and EU-funded programs."
+"We help businesses, entrepreneurs, and institutions access the right funding "
+"at the right time—covering investment incentives, trade supports, "
+"agricultural and rural programs, renewable energy, EU-funded initiatives, "
+"and TÜBİTAK R&D. Our role is to simplify decisions and accelerate execution."
+msgstr "We help businesses, entrepreneurs, and institutions access the right funding at the right time—covering investment incentives, trade supports, agricultural and rural programs, renewable energy, EU-funded initiatives, and TÜBİTAK R&D. Our role is to simplify decisions and accelerate execution."
 
-#: .\website\templates\website\about.html:43
+#: .\website\templates\website\about.html:42
 msgid "Our Approach"
 msgstr "Our Approach"
 
-#: .\website\templates\website\about.html:47
+#: .\website\templates\website\about.html:46
 msgid ""
-"We help our clients access funding opportunities, optimize project "
-"strategies, and achieve sustainable growth. Our team combines deep knowledge "
-"of regulations with practical experience to deliver tailored solutions for "
-"every client."
-msgstr ""
-"We help our clients access funding opportunities, optimize project "
-"strategies, and achieve sustainable growth. Our team combines deep knowledge "
-"of regulations with practical experience to deliver tailored solutions for "
-"every client."
+"Eligibility first, paperwork next, results always. We align your goals with "
+"the right instruments, prepare winning applications, and stay with you "
+"through implementation, reporting, and audits."
+msgstr "Eligibility first, paperwork next, results always. We align your goals with the right instruments, prepare winning applications, and stay with you through implementation, reporting, and audits."
 
-#: .\website\templates\website\category_detail.html:124
+#: .\website\templates\website\about.html:54
+msgid "Consulting Team"
+msgstr "Consulting Team"
+
+#: .\website\templates\website\category_detail.html:125
 msgid "Back to all services"
 msgstr "Back to all services"
 
-#: .\website\templates\website\category_list.html:88
-msgid "Category List"
-msgstr "Category List"
+#: .\website\templates\website\category_list.html:89
+msgid "Service List"
+msgstr "Service List"
 
-#: .\website\templates\website\category_list.html:92
-msgid "What we offer"
-msgstr "What we offer"
-
-#: .\website\templates\website\category_list.html:109
+#: .\website\templates\website\category_list.html:112
 msgid ""
-"C.A.F is a consulting company helping businesses, entrepreneurs, and "
-"organizations navigate complex grant, incentive, and investment programs."
-msgstr ""
-"C.A.F is a consulting company helping businesses, entrepreneurs, and "
-"organizations navigate complex grant, incentive, and investment programs."
-
-#: .\website\templates\website\category_list.html:110
-msgid "We provide expert support in:"
-msgstr "We provide expert support in:"
-
-#: .\website\templates\website\category_list.html:114
-msgid "Investment incentives"
-msgstr "Investment incentives"
-
-#: .\website\templates\website\category_list.html:115
-msgid "Trade subsidies"
-msgstr "Trade subsidies"
+"C.A.F is your trusted partner in securing grants, incentives, and investment "
+"opportunities. We simplify complex programs and help your business turn "
+"funding into real growth."
+msgstr "C.A.F is your trusted partner in securing grants, incentives, and investment opportunities. We simplify complex programs and help your business turn funding into real growth."
 
 #: .\website\templates\website\category_list.html:116
-msgid "Rural development"
-msgstr "Rural development"
+msgid "Investment Incentive Certificates & Land Allocation"
+msgstr "Investment Incentive Certificates & Land Allocation"
 
 #: .\website\templates\website\category_list.html:117
-msgid "Renewable energy"
-msgstr "Renewable energy"
+msgid "Ministry of Trade Grants & Export Supports"
+msgstr "Ministry of Trade Grants & Export Supports"
 
 #: .\website\templates\website\category_list.html:118
-msgid "EU-funded programs"
-msgstr "EU-funded programs"
+msgid "KOSGEB Programs for SMEs and Entrepreneurs"
+msgstr "KOSGEB Programs for SMEs and Entrepreneurs"
 
 #: .\website\templates\website\category_list.html:119
-msgid "And more — empowering your growth with knowledge and experience"
-msgstr "And more — empowering your growth with knowledge and experience"
+msgid "Agricultural & Rural Development Funds (IPARD/TKDK)"
+msgstr "Agricultural & Rural Development Funds (IPARD/TKDK)"
 
-#: .\website\templates\website\category_list.html:133
+#: .\website\templates\website\category_list.html:120
+msgid "TÜBİTAK R&D and Innovation Projects"
+msgstr "TÜBİTAK R&D and Innovation Projects"
+
+#: .\website\templates\website\category_list.html:121
+msgid "EU-Funded Programs (Horizon, Erasmus+, etc.)"
+msgstr "EU-Funded Programs (Horizon, Erasmus+, etc.)"
+
+#: .\website\templates\website\category_list.html:122
+msgid "Renewable Energy & Green Transition Incentives"
+msgstr "Renewable Energy & Green Transition Incentives"
+
+#: .\website\templates\website\category_list.html:125
+msgid ""
+"From eligibility checks to applications, reporting, and audits — we manage "
+"the full process with you."
+msgstr "From eligibility checks to applications, reporting, and audits — we manage the full process with you."
+
+#: .\website\templates\website\category_list.html:139
 msgid "Read more"
 msgstr "Read more"
 
-#: .\website\templates\website\category_list.html:140
+#: .\website\templates\website\category_list.html:146
 msgid "No categories found."
 msgstr "No categories found."
 
@@ -184,6 +174,3 @@ msgstr "Phone Number"
 #: .\website\templates\website\contacts.html:58
 msgid "Find us on the map"
 msgstr "Find us on the map"
-
-#~ msgid "Email"
-#~ msgstr "Email"
