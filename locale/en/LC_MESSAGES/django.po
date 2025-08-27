@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-26 10:10+0300\n"
+"POT-Creation-Date: 2025-08-27 16:02+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,6 +33,7 @@ msgstr "Sorry, the page you are looking for does not exist or has been moved."
 msgid "Back to Home"
 msgstr "Back to Home"
 
+
 #: .\templates\base.html:117
 msgid "Empowering Growth. Enabling Success."
 msgstr "Empowering Growth. Enabling Success."
@@ -53,109 +54,182 @@ msgstr "Contacts"
 msgid "About Us"
 msgstr "About Us"
 
-#: .\website\templates\website\about.html:19
-msgid "What makes us unique"
-msgstr "What makes us unique"
+#: .\website\templates\website\about.html:52
+msgid "Get to know us"
+msgstr "Get to know us"
 
-#: .\website\templates\website\about.html:21
-msgid "We turn complex funding programs into measurable results."
-msgstr "We turn complex funding programs into measurable results."
-
-#: .\website\templates\website\about.html:24
-msgid "End-to-end support in grants, incentives, and investments"
-msgstr "End-to-end support in grants, incentives, and investments"
-
-#: .\website\templates\website\about.html:27
+#: .\website\templates\website\about.html:153
 msgid ""
-"Deep domain expertise across tourism, agriculture, logistics, education, and "
-"technology"
-msgstr "Deep domain expertise across tourism, agriculture, logistics, education, and technology"
+"C.A.F. is an organization that stands out with its expert staff and sectoral "
+"experience, offering a wide range of services in investment, project "
+"development, and consulting."
+msgstr "C.A.F. is an organization that stands out with its expert staff and sectoral experience, offering a wide range of services in investment, project development, and consulting."
 
-#: .\website\templates\website\about.html:30
-msgid "Tailored strategies focused on eligibility, impact, and ROI"
-msgstr "Tailored strategies focused on eligibility, impact, and ROI"
-
-#: .\website\templates\website\about.html:33
-msgid "Collaborative delivery, transparent process, long-term partnerships"
-msgstr "Collaborative delivery, transparent process, long-term partnerships"
-
-#: .\website\templates\website\about.html:36
+#: .\website\templates\website\about.html:156
 msgid ""
-"We help businesses, entrepreneurs, and institutions access the right funding "
-"at the right time—covering investment incentives, trade supports, "
-"agricultural and rural programs, renewable energy, EU-funded initiatives, "
-"and TÜBİTAK R&D. Our role is to simplify decisions and accelerate execution."
-msgstr "We help businesses, entrepreneurs, and institutions access the right funding at the right time—covering investment incentives, trade supports, agricultural and rural programs, renewable energy, EU-funded initiatives, and TÜBİTAK R&D. Our role is to simplify decisions and accelerate execution."
+"Our goal is to guide our clients in taking the right steps throughout the "
+"process of realizing their projects by offering solutions tailored to their "
+"needs."
+msgstr "Our goal is to guide our clients in taking the right steps throughout the process of realizing their projects by offering solutions tailored to their needs."
 
-#: .\website\templates\website\about.html:42
-msgid "Our Approach"
-msgstr "Our Approach"
+#: .\website\templates\website\about.html:165
+msgid "Our Fields of Activity"
+msgstr "Our Fields of Activity"
 
-#: .\website\templates\website\about.html:46
+#: .\website\templates\website\about.html:167
+msgid "National Real Estate Transactions Consulting"
+msgstr "National Real Estate Transactions Consulting"
+
+#: .\website\templates\website\about.html:167
 msgid ""
-"Eligibility first, paperwork next, results always. We align your goals with "
-"the right instruments, prepare winning applications, and stay with you "
-"through implementation, reporting, and audits."
-msgstr "Eligibility first, paperwork next, results always. We align your goals with the right instruments, prepare winning applications, and stay with you through implementation, reporting, and audits."
+"Professional consulting in the sale, leasing, and investment incentive "
+"processes of state-owned properties."
+msgstr "Professional consulting in the sale, leasing, and investment incentive processes of state-owned properties."
 
-#: .\website\templates\website\about.html:54
-msgid "Consulting Team"
-msgstr "Consulting Team"
+#: .\website\templates\website\about.html:168
+msgid "Zoning, Planning, and Real Estate Consulting"
+msgstr "Zoning, Planning, and Real Estate Consulting"
+
+#: .\website\templates\website\about.html:168
+msgid ""
+"Strategic solutions in investment planning, project development, and zoning "
+"processes."
+msgstr "Strategic solutions in investment planning, project development, and zoning processes."
+
+#: .\website\templates\website\about.html:169
+msgid "Real Estate and Construction Services"
+msgstr "Real Estate and Construction Services"
+
+#: .\website\templates\website\about.html:169
+msgid "Project management, feasibility studies, and implementation support."
+msgstr "Project management, feasibility studies, and implementation support."
+
+#: .\website\templates\website\about.html:170
+msgid "Environment and Energy Consulting"
+msgstr "Environment and Energy Consulting"
+
+#: .\website\templates\website\about.html:170
+msgid ""
+"Planning and implementation support for sustainable energy and environmental "
+"projects."
+msgstr "Planning and implementation support for sustainable energy and environmental projects."
+
+#: .\website\templates\website\about.html:171
+msgid "Tourism Investment Consulting"
+msgstr "Tourism Investment Consulting"
+
+#: .\website\templates\website\about.html:171
+msgid ""
+"Consulting in feasibility, planning, and investment processes in the tourism "
+"sector."
+msgstr "Consulting in feasibility, planning, and investment processes in the tourism sector."
+
+#: .\website\templates\website\about.html:172
+msgid "Agricultural Grants and Incentives"
+msgstr "Agricultural Grants and Incentives"
+
+#: .\website\templates\website\about.html:172
+msgid ""
+"Government supports, grant and incentive applications for agricultural "
+"projects."
+msgstr "Government supports, grant and incentive applications for agricultural projects."
+
+#: .\website\templates\website\about.html:173
+msgid "Ministry of Trade Grants and Incentives"
+msgstr "Ministry of Trade Grants and Incentives"
+
+#: .\website\templates\website\about.html:173
+msgid "Application and management of support programs in export and trade."
+msgstr "Application and management of support programs in export and trade."
+
+#: .\website\templates\website\about.html:174
+msgid "Current Grants and Incentives"
+msgstr "Current Grants and Incentives"
+
+#: .\website\templates\website\about.html:174
+msgid ""
+"Monitoring and management of open grant and support program applications."
+msgstr "Monitoring and management of open grant and support program applications."
+
+#: .\website\templates\website\about.html:175
+msgid "European Union Projects"
+msgstr "European Union Projects"
+
+#: .\website\templates\website\about.html:175
+msgid "Utilization of international funds and project management."
+msgstr "Utilization of international funds and project management."
+
+#: .\website\templates\website\about.html:176
+msgid "KOSGEB Projects"
+msgstr "KOSGEB Projects"
+
+#: .\website\templates\website\about.html:176
+msgid ""
+"Project preparation and execution within the scope of KOSGEB support "
+"programs."
+msgstr "Project preparation and execution within the scope of KOSGEB support programs."
+
+#: .\website\templates\website\about.html:177
+msgid "TÜBİTAK Projects"
+msgstr "TÜBİTAK Projects"
+
+#: .\website\templates\website\about.html:177
+msgid ""
+"TÜBİTAK supports and application processes for R&D, innovation, and "
+"scientific projects."
+msgstr "TÜBİTAK supports and application processes for R&D, innovation, and scientific projects."
+
+#: .\website\templates\website\about.html:178
+msgid "Other Consulting Services"
+msgstr "Other Consulting Services"
+
+#: .\website\templates\website\about.html:178
+msgid "Project and investment consulting tailored to customer needs."
+msgstr "Project and investment consulting tailored to customer needs."
+
+#: .\website\templates\website\about.html:187
+msgid "Our Mission"
+msgstr "Our Mission"
+
+#: .\website\templates\website\about.html:188
+msgid ""
+"To create value with accurate information, strategic planning, and "
+"professional management to ensure our clients achieve their goals."
+msgstr "To create value with accurate information, strategic planning, and professional management to ensure our clients achieve their goals."
+
+#: .\website\templates\website\about.html:189
+msgid "Our Vision"
+msgstr "Our Vision"
+
+#: .\website\templates\website\about.html:190
+msgid ""
+"To be a reliable, innovative, and internationally recognized brand in "
+"investment, project, and consulting services."
+msgstr "To be a reliable, innovative, and internationally recognized brand in investment, project, and consulting services."
+
+#: .\website\templates\website\about.html:202
+msgid "Our Partners"
+msgstr "Our Partners"
+
+#: .\website\templates\website\about.html:217
+msgid ""
+"Citius Software and Informatics is our trusted partner in developing "
+"software solutions and technologies."
+msgstr " 'Citius Software and Informatics' is our trusted partner in developing software solutions and technologies."
 
 #: .\website\templates\website\category_detail.html:125
 msgid "Back to all services"
 msgstr "Back to all services"
 
-#: .\website\templates\website\category_list.html:89
+#: .\website\templates\website\category_list.html:111
 msgid "Service List"
 msgstr "Service List"
 
-#: .\website\templates\website\category_list.html:112
-msgid ""
-"C.A.F is your trusted partner in securing grants, incentives, and investment "
-"opportunities. We simplify complex programs and help your business turn "
-"funding into real growth."
-msgstr "C.A.F is your trusted partner in securing grants, incentives, and investment opportunities. We simplify complex programs and help your business turn funding into real growth."
-
-#: .\website\templates\website\category_list.html:116
-msgid "Investment Incentive Certificates & Land Allocation"
-msgstr "Investment Incentive Certificates & Land Allocation"
-
-#: .\website\templates\website\category_list.html:117
-msgid "Ministry of Trade Grants & Export Supports"
-msgstr "Ministry of Trade Grants & Export Supports"
-
-#: .\website\templates\website\category_list.html:118
-msgid "KOSGEB Programs for SMEs and Entrepreneurs"
-msgstr "KOSGEB Programs for SMEs and Entrepreneurs"
-
-#: .\website\templates\website\category_list.html:119
-msgid "Agricultural & Rural Development Funds (IPARD/TKDK)"
-msgstr "Agricultural & Rural Development Funds (IPARD/TKDK)"
-
-#: .\website\templates\website\category_list.html:120
-msgid "TÜBİTAK R&D and Innovation Projects"
-msgstr "TÜBİTAK R&D and Innovation Projects"
-
-#: .\website\templates\website\category_list.html:121
-msgid "EU-Funded Programs (Horizon, Erasmus+, etc.)"
-msgstr "EU-Funded Programs (Horizon, Erasmus+, etc.)"
-
-#: .\website\templates\website\category_list.html:122
-msgid "Renewable Energy & Green Transition Incentives"
-msgstr "Renewable Energy & Green Transition Incentives"
-
-#: .\website\templates\website\category_list.html:125
-msgid ""
-"From eligibility checks to applications, reporting, and audits — we manage "
-"the full process with you."
-msgstr "From eligibility checks to applications, reporting, and audits — we manage the full process with you."
-
-#: .\website\templates\website\category_list.html:139
+#: .\website\templates\website\category_list.html:143
 msgid "Read more"
 msgstr "Read more"
 
-#: .\website\templates\website\category_list.html:146
+#: .\website\templates\website\category_list.html:150
 msgid "No categories found."
 msgstr "No categories found."
 
@@ -171,6 +245,6 @@ msgstr "Our Address"
 msgid "Phone Number"
 msgstr "Phone Number"
 
-#: .\website\templates\website\contacts.html:58
+#: .\website\templates\website\contacts.html:59
 msgid "Find us on the map"
 msgstr "Find us on the map"

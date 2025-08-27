@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-26 10:10+0300\n"
+"POT-Creation-Date: 2025-08-27 16:02+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,6 +33,7 @@ msgstr "Üzgünüz, aradığınız sayfa mevcut değil veya taşınmış."
 msgid "Back to Home"
 msgstr "Ana Sayfaya Dön"
 
+
 #: .\templates\base.html:117
 msgid "Empowering Growth. Enabling Success."
 msgstr "Büyümeyi Güçlendiriyoruz. Başarıyı Sağlıyoruz."
@@ -53,109 +54,182 @@ msgstr "İletişim"
 msgid "About Us"
 msgstr "Hakkımızda"
 
-#: .\website\templates\website\about.html:19
-msgid "What makes us unique"
-msgstr "Bizi benzersiz kılan nedir"
+#: .\website\templates\website\about.html:52
+msgid "Get to know us"
+msgstr "Bizi Tanıyın"
 
-#: .\website\templates\website\about.html:21
-msgid "We turn complex funding programs into measurable results."
-msgstr "Karmaşık fon programlarını ölçülebilir sonuçlara dönüştürüyoruz."
-
-#: .\website\templates\website\about.html:24
-msgid "End-to-end support in grants, incentives, and investments"
-msgstr "Hibe, teşvik ve yatırımlarda uçtan uca destek"
-
-#: .\website\templates\website\about.html:27
+#: .\website\templates\website\about.html:153
 msgid ""
-"Deep domain expertise across tourism, agriculture, logistics, education, and "
-"technology"
-msgstr "Turizm, tarım, lojistik, eğitim ve teknoloji alanlarında derin uzmanlık"
+"C.A.F. is an organization that stands out with its expert staff and sectoral "
+"experience, offering a wide range of services in investment, project "
+"development, and consulting."
+msgstr "C.A.F., uzman kadrosu ve sektörel deneyimiyle öne çıkan, yatırım, proje geliştirme ve danışmanlık alanlarında geniş hizmet yelpazesi sunan bir kuruluştur."
 
-#: .\website\templates\website\about.html:30
-msgid "Tailored strategies focused on eligibility, impact, and ROI"
-msgstr "Uygunluk, etki ve yatırım getirisine odaklanan özel stratejiler"
-
-#: .\website\templates\website\about.html:33
-msgid "Collaborative delivery, transparent process, long-term partnerships"
-msgstr "İş birliğine dayalı teslimat, şeffaf süreç, uzun vadeli ortaklıklar"
-
-#: .\website\templates\website\about.html:36
+#: .\website\templates\website\about.html:156
 msgid ""
-"We help businesses, entrepreneurs, and institutions access the right funding "
-"at the right time—covering investment incentives, trade supports, "
-"agricultural and rural programs, renewable energy, EU-funded initiatives, "
-"and TÜBİTAK R&D. Our role is to simplify decisions and accelerate execution."
-msgstr "İşletmelerin, girişimcilerin ve kurumların doğru zamanda doğru finansmana erişmesine yardımcı oluyoruz—yatırım teşvikleri, ticaret destekleri, tarım ve kırsal programlar, yenilenebilir enerji, AB destekli girişimler ve TÜBİTAK Ar-Ge dahil. Rolümüz kararları basitleştirmek ve uygulamayı hızlandırmaktır."
+"Our goal is to guide our clients in taking the right steps throughout the "
+"process of realizing their projects by offering solutions tailored to their "
+"needs."
+msgstr "Amacımız, müşterilerimizin projelerini hayata geçirme sürecinde ihtiyaçlarına uygun çözümler sunarak doğru adımlar atmalarına rehberlik etmektir."
 
-#: .\website\templates\website\about.html:42
-msgid "Our Approach"
-msgstr "Yaklaşımımız"
+#: .\website\templates\website\about.html:165
+msgid "Our Fields of Activity"
+msgstr "Faaliyet Alanlarımız"
 
-#: .\website\templates\website\about.html:46
+#: .\website\templates\website\about.html:167
+msgid "National Real Estate Transactions Consulting"
+msgstr "Ulusal Gayrimenkul İşlemleri Danışmanlığı"
+
+#: .\website\templates\website\about.html:167
 msgid ""
-"Eligibility first, paperwork next, results always. We align your goals with "
-"the right instruments, prepare winning applications, and stay with you "
-"through implementation, reporting, and audits."
-msgstr "Önce uygunluk, sonra evrak, her zaman sonuç. Hedeflerinizi doğru araçlarla eşleştirir, kazandıran başvurular hazırlar ve uygulama, raporlama ve denetim boyunca yanınızda oluruz."
+"Professional consulting in the sale, leasing, and investment incentive "
+"processes of state-owned properties."
+msgstr "Devlete ait taşınmazların satışı, kiralanması ve yatırım teşvik süreçlerinde profesyonel danışmanlık."
 
-#: .\website\templates\website\about.html:54
-msgid "Consulting Team"
-msgstr "Danışmanlık Ekibi"
+#: .\website\templates\website\about.html:168
+msgid "Zoning, Planning, and Real Estate Consulting"
+msgstr "İmar, Planlama ve Gayrimenkul Danışmanlığı"
+
+#: .\website\templates\website\about.html:168
+msgid ""
+"Strategic solutions in investment planning, project development, and zoning "
+"processes."
+msgstr "Yatırım planlaması, proje geliştirme ve imar süreçlerinde stratejik çözümler."
+
+#: .\website\templates\website\about.html:169
+msgid "Real Estate and Construction Services"
+msgstr "Gayrimenkul ve İnşaat Hizmetleri"
+
+#: .\website\templates\website\about.html:169
+msgid "Project management, feasibility studies, and implementation support."
+msgstr "Proje yönetimi, fizibilite çalışmaları ve uygulama desteği."
+
+#: .\website\templates\website\about.html:170
+msgid "Environment and Energy Consulting"
+msgstr "Çevre ve Enerji Danışmanlığı"
+
+#: .\website\templates\website\about.html:170
+msgid ""
+"Planning and implementation support for sustainable energy and environmental "
+"projects."
+msgstr "Sürdürülebilir enerji ve çevre projeleri için planlama ve uygulama desteği."
+
+#: .\website\templates\website\about.html:171
+msgid "Tourism Investment Consulting"
+msgstr "Turizm Yatırımı Danışmanlığı"
+
+#: .\website\templates\website\about.html:171
+msgid ""
+"Consulting in feasibility, planning, and investment processes in the tourism "
+"sector."
+msgstr "Turizm sektöründe fizibilite, planlama ve yatırım süreçlerinde danışmanlık."
+
+#: .\website\templates\website\about.html:172
+msgid "Agricultural Grants and Incentives"
+msgstr "Tarımsal Hibe ve Teşvikler"
+
+#: .\website\templates\website\about.html:172
+msgid ""
+"Government supports, grant and incentive applications for agricultural "
+"projects."
+msgstr "Tarımsal projeler için devlet destekleri, hibe ve teşvik başvuruları."
+
+#: .\website\templates\website\about.html:173
+msgid "Ministry of Trade Grants and Incentives"
+msgstr "Ticaret Bakanlığı Hibe ve Teşvikleri"
+
+#: .\website\templates\website\about.html:173
+msgid "Application and management of support programs in export and trade."
+msgstr "İhracat ve ticarette destek programlarının başvurusu ve yönetimi."
+
+#: .\website\templates\website\about.html:174
+msgid "Current Grants and Incentives"
+msgstr "Güncel Hibe ve Teşvikler"
+
+#: .\website\templates\website\about.html:174
+msgid ""
+"Monitoring and management of open grant and support program applications."
+msgstr "Açık hibe ve destek programı başvurularının takibi ve yönetimi."
+
+#: .\website\templates\website\about.html:175
+msgid "European Union Projects"
+msgstr "Avrupa Birliği Projeleri"
+
+#: .\website\templates\website\about.html:175
+msgid "Utilization of international funds and project management."
+msgstr "Uluslararası fonların kullanımı ve proje yönetimi."
+
+#: .\website\templates\website\about.html:176
+msgid "KOSGEB Projects"
+msgstr "KOSGEB Projeleri"
+
+#: .\website\templates\website\about.html:176
+msgid ""
+"Project preparation and execution within the scope of KOSGEB support "
+"programs."
+msgstr "KOSGEB destek programları kapsamında proje hazırlama ve yürütme."
+
+#: .\website\templates\website\about.html:177
+msgid "TÜBİTAK Projects"
+msgstr "TÜBİTAK Projeleri"
+
+#: .\website\templates\website\about.html:177
+msgid ""
+"TÜBİTAK supports and application processes for R&D, innovation, and "
+"scientific projects."
+msgstr "TÜBİTAK destekleri ve Ar-Ge, inovasyon ve bilimsel projeler için başvuru süreçleri."
+
+#: .\website\templates\website\about.html:178
+msgid "Other Consulting Services"
+msgstr "Diğer Danışmanlık Hizmetleri"
+
+#: .\website\templates\website\about.html:178
+msgid "Project and investment consulting tailored to customer needs."
+msgstr "Müşteri ihtiyaçlarına özel proje ve yatırım danışmanlığı."
+
+#: .\website\templates\website\about.html:187
+msgid "Our Mission"
+msgstr "Misyonumuz"
+
+#: .\website\templates\website\about.html:188
+msgid ""
+"To create value with accurate information, strategic planning, and "
+"professional management to ensure our clients achieve their goals."
+msgstr "Müşterilerimizin hedeflerine ulaşmasını sağlamak için doğru bilgi, stratejik planlama ve profesyonel yönetimle değer yaratmak."
+
+#: .\website\templates\website\about.html:189
+msgid "Our Vision"
+msgstr "Vizyonumuz"
+
+#: .\website\templates\website\about.html:190
+msgid ""
+"To be a reliable, innovative, and internationally recognized brand in "
+"investment, project, and consulting services."
+msgstr "Yatırım, proje ve danışmanlık hizmetlerinde güvenilir, yenilikçi ve uluslararası tanınan bir marka olmak."
+
+#: .\website\templates\website\about.html:202
+msgid "Our Partners"
+msgstr "İş Ortaklarımız"
+
+#: .\website\templates\website\about.html:217
+msgid ""
+"Citius Software and Informatics is our trusted partner in developing "
+"software solutions and technologies."
+msgstr " 'Citius Yazılım ve Bilişim', yazılım çözümleri ve teknolojileri geliştirmede güvenilir ortağımızdır."
 
 #: .\website\templates\website\category_detail.html:125
 msgid "Back to all services"
 msgstr "Tüm hizmetlere geri dön"
 
-#: .\website\templates\website\category_list.html:89
+#: .\website\templates\website\category_list.html:111
 msgid "Service List"
 msgstr "Hizmet Listesi"
 
-#: .\website\templates\website\category_list.html:112
-msgid ""
-"C.A.F is your trusted partner in securing grants, incentives, and investment "
-"opportunities. We simplify complex programs and help your business turn "
-"funding into real growth."
-msgstr "C.A.F, hibe, teşvik ve yatırım fırsatlarında güvenilir ortağınızdır. Karmaşık programları basitleştirir ve işletmenizin fonları gerçek büyümeye dönüştürmesine yardımcı oluruz."
-
-#: .\website\templates\website\category_list.html:116
-msgid "Investment Incentive Certificates & Land Allocation"
-msgstr "Yatırım Teşvik Belgeleri & Arazi Tahsisi"
-
-#: .\website\templates\website\category_list.html:117
-msgid "Ministry of Trade Grants & Export Supports"
-msgstr "Ticaret Bakanlığı Hibeleri & İhracat Destekleri"
-
-#: .\website\templates\website\category_list.html:118
-msgid "KOSGEB Programs for SMEs and Entrepreneurs"
-msgstr "KOBİ ve Girişimciler için KOSGEB Programları"
-
-#: .\website\templates\website\category_list.html:119
-msgid "Agricultural & Rural Development Funds (IPARD/TKDK)"
-msgstr "Tarım & Kırsal Kalkınma Fonları (IPARD/TKDK)"
-
-#: .\website\templates\website\category_list.html:120
-msgid "TÜBİTAK R&D and Innovation Projects"
-msgstr "TÜBİTAK Ar-Ge ve İnovasyon Projeleri"
-
-#: .\website\templates\website\category_list.html:121
-msgid "EU-Funded Programs (Horizon, Erasmus+, etc.)"
-msgstr "AB Destekli Programlar (Ufuk, Erasmus+ vb.)"
-
-#: .\website\templates\website\category_list.html:122
-msgid "Renewable Energy & Green Transition Incentives"
-msgstr "Yenilenebilir Enerji & Yeşil Dönüşüm Teşvikleri"
-
-#: .\website\templates\website\category_list.html:125
-msgid ""
-"From eligibility checks to applications, reporting, and audits — we manage "
-"the full process with you."
-msgstr "Uygunluk kontrollerinden başvurulara, raporlamadan denetime kadar tüm süreci sizinle birlikte yönetiyoruz."
-
-#: .\website\templates\website\category_list.html:139
+#: .\website\templates\website\category_list.html:143
 msgid "Read more"
 msgstr "Daha fazla oku"
 
-#: .\website\templates\website\category_list.html:146
+#: .\website\templates\website\category_list.html:150
 msgid "No categories found."
 msgstr "Kategori bulunamadı."
 
@@ -171,6 +245,6 @@ msgstr "Adresimiz"
 msgid "Phone Number"
 msgstr "Telefon Numarası"
 
-#: .\website\templates\website\contacts.html:58
+#: .\website\templates\website\contacts.html:59
 msgid "Find us on the map"
-msgstr "Haritada bizi bulun"
+msgstr "Bizi haritada bulun"
