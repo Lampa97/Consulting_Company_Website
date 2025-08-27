@@ -207,11 +207,15 @@ msgid ""
 "investment, project, and consulting services."
 msgstr "To be a reliable, innovative, and internationally recognized brand in investment, project, and consulting services."
 
+#: .\website\templates\website\about.html:202
+msgid "Our Partners"
+msgstr "Our Partners"
+
 #: .\website\templates\website\about.html:217
 msgid ""
 "Citius Software and Informatics is our trusted partner in developing "
 "software solutions and technologies."
-msgstr "Citius Software and Informatics is our trusted partner in developing software solutions and technologies."
+msgstr " 'Citius Software and Informatics' is our trusted partner in developing software solutions and technologies."
 
 #: .\website\templates\website\category_detail.html:125
 msgid "Back to all services"

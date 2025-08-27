@@ -207,11 +207,15 @@ msgid ""
 "investment, project, and consulting services."
 msgstr "Yatırım, proje ve danışmanlık hizmetlerinde güvenilir, yenilikçi ve uluslararası tanınan bir marka olmak."
 
+#: .\website\templates\website\about.html:202
+msgid "Our Partners"
+msgstr "İş Ortaklarımız"
+
 #: .\website\templates\website\about.html:217
 msgid ""
 "Citius Software and Informatics is our trusted partner in developing "
 "software solutions and technologies."
-msgstr "Citius Software and Informatics, yazılım çözümleri ve teknolojileri geliştirmede güvenilir ortağımızdır."
+msgstr " 'Citius Yazılım ve Bilişim', yazılım çözümleri ve teknolojileri geliştirmede güvenilir ortağımızdır."
 
 #: .\website\templates\website\category_detail.html:125
 msgid "Back to all services"
