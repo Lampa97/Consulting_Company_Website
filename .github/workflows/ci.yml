@@ -56,6 +56,7 @@ jobs:
             
             echo "Step 1: Pulling the latest code from the repository"
             cd Consulting_Company_Website
+            sudo git checkout develop
             sudo git pull
                     
             echo "Step 2: Creating static folder"
@@ -64,7 +65,7 @@ jobs:
             echo "Static folder exists."
             else
             echo "Static folder does not exist. Creating it now."
-            mkdir static
+            sudo mkdir static
             fi
           
                              

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}404 - {% trans "Page Not Found" %}{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-column align-items-center justify-content-center" style="min-height:60vh;">
+  <div class="text-center fade-in">
+    <img src="{% static 'images/404.svg' %}" alt="404" style="max-width:320px;width:100%;margin-bottom:32px;opacity:0.92;" />
+    <h1 class="display-4 fw-bold mb-3" style="color:#0d1b2a;">404</h1>
+  <h2 class="mb-3" style="color:#495057;">{% trans "Page not found" %}</h2>
+  <p class="mb-4" style="color:#6c757d;max-width:420px;margin:auto;">{% trans "Sorry, the page you are looking for does not exist or has been moved." %}</p>
+  <a href="/" class="btn btn-primary px-4 py-2" style="font-weight:600;">{% trans "Back to Home" %}</a>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 10:10+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: .\templates\404.html:5
+msgid "Page Not Found"
+msgstr "Sayfa Bulunamadı"
+
+#: .\templates\404.html:12
+msgid "Page not found"
+msgstr "Sayfa bulunamadı"
+
+#: .\templates\404.html:13
+msgid "Sorry, the page you are looking for does not exist or has been moved."
+msgstr "Üzgünüz, aradığınız sayfa mevcut değil veya taşınmış."
+
+#: .\templates\404.html:14
+msgid "Back to Home"
+msgstr "Ana Sayfaya Dön"
+
+#: .\templates\base.html:117
+msgid "Empowering Growth. Enabling Success."
+msgstr "Büyümeyi Güçlendiriyoruz. Başarıyı Sağlıyoruz."
+
+#: .\templates\base.html:124
+msgid "Services"
+msgstr "Hizmetler"
+
+#: .\templates\base.html:127
+msgid "About us"
+msgstr "Hakkımızda"
+
+#: .\templates\base.html:130
+msgid "Contacts"
+msgstr "İletişim"
+
+#: .\website\templates\website\about.html:6
+msgid "About Us"
+msgstr "Hakkımızda"
+
+#: .\website\templates\website\about.html:19
+msgid "What makes us unique"
+msgstr "Bizi benzersiz kılan nedir"
+
+#: .\website\templates\website\about.html:21
+msgid "We turn complex funding programs into measurable results."
+msgstr "Karmaşık fon programlarını ölçülebilir sonuçlara dönüştürüyoruz."
+
+#: .\website\templates\website\about.html:24
+msgid "End-to-end support in grants, incentives, and investments"
+msgstr "Hibe, teşvik ve yatırımlarda uçtan uca destek"
+
+#: .\website\templates\website\about.html:27
+msgid ""
+"Deep domain expertise across tourism, agriculture, logistics, education, and "
+"technology"
+msgstr "Turizm, tarım, lojistik, eğitim ve teknoloji alanlarında derin uzmanlık"
+
+#: .\website\templates\website\about.html:30
+msgid "Tailored strategies focused on eligibility, impact, and ROI"
+msgstr "Uygunluk, etki ve yatırım getirisine odaklanan özel stratejiler"
+
+#: .\website\templates\website\about.html:33
+msgid "Collaborative delivery, transparent process, long-term partnerships"
+msgstr "İş birliğine dayalı teslimat, şeffaf süreç, uzun vadeli ortaklıklar"
+
+#: .\website\templates\website\about.html:36
+msgid ""
+"We help businesses, entrepreneurs, and institutions access the right funding "
+"at the right time—covering investment incentives, trade supports, "
+"agricultural and rural programs, renewable energy, EU-funded initiatives, "
+"and TÜBİTAK R&D. Our role is to simplify decisions and accelerate execution."
+msgstr "İşletmelerin, girişimcilerin ve kurumların doğru zamanda doğru finansmana erişmesine yardımcı oluyoruz—yatırım teşvikleri, ticaret destekleri, tarım ve kırsal programlar, yenilenebilir enerji, AB destekli girişimler ve TÜBİTAK Ar-Ge dahil. Rolümüz kararları basitleştirmek ve uygulamayı hızlandırmaktır."
+
+#: .\website\templates\website\about.html:42
+msgid "Our Approach"
+msgstr "Yaklaşımımız"
+
+#: .\website\templates\website\about.html:46
+msgid ""
+"Eligibility first, paperwork next, results always. We align your goals with "
+"the right instruments, prepare winning applications, and stay with you "
+"through implementation, reporting, and audits."
+msgstr "Önce uygunluk, sonra evrak, her zaman sonuç. Hedeflerinizi doğru araçlarla eşleştirir, kazandıran başvurular hazırlar ve uygulama, raporlama ve denetim boyunca yanınızda oluruz."
+
+#: .\website\templates\website\about.html:54
+msgid "Consulting Team"
+msgstr "Danışmanlık Ekibi"
+
+#: .\website\templates\website\category_detail.html:125
+msgid "Back to all services"
+msgstr "Tüm hizmetlere geri dön"
+
+#: .\website\templates\website\category_list.html:89
+msgid "Service List"
+msgstr "Hizmet Listesi"
+
+#: .\website\templates\website\category_list.html:112
+msgid ""
+"C.A.F is your trusted partner in securing grants, incentives, and investment "
+"opportunities. We simplify complex programs and help your business turn "
+"funding into real growth."
+msgstr "C.A.F, hibe, teşvik ve yatırım fırsatlarında güvenilir ortağınızdır. Karmaşık programları basitleştirir ve işletmenizin fonları gerçek büyümeye dönüştürmesine yardımcı oluruz."
+
+#: .\website\templates\website\category_list.html:116
+msgid "Investment Incentive Certificates & Land Allocation"
+msgstr "Yatırım Teşvik Belgeleri & Arazi Tahsisi"
+
+#: .\website\templates\website\category_list.html:117
+msgid "Ministry of Trade Grants & Export Supports"
+msgstr "Ticaret Bakanlığı Hibeleri & İhracat Destekleri"
+
+#: .\website\templates\website\category_list.html:118
+msgid "KOSGEB Programs for SMEs and Entrepreneurs"
+msgstr "KOBİ ve Girişimciler için KOSGEB Programları"
+
+#: .\website\templates\website\category_list.html:119
+msgid "Agricultural & Rural Development Funds (IPARD/TKDK)"
+msgstr "Tarım & Kırsal Kalkınma Fonları (IPARD/TKDK)"
+
+#: .\website\templates\website\category_list.html:120
+msgid "TÜBİTAK R&D and Innovation Projects"
+msgstr "TÜBİTAK Ar-Ge ve İnovasyon Projeleri"
+
+#: .\website\templates\website\category_list.html:121
+msgid "EU-Funded Programs (Horizon, Erasmus+, etc.)"
+msgstr "AB Destekli Programlar (Ufuk, Erasmus+ vb.)"
+
+#: .\website\templates\website\category_list.html:122
+msgid "Renewable Energy & Green Transition Incentives"
+msgstr "Yenilenebilir Enerji & Yeşil Dönüşüm Teşvikleri"
+
+#: .\website\templates\website\category_list.html:125
+msgid ""
+"From eligibility checks to applications, reporting, and audits — we manage "
+"the full process with you."
+msgstr "Uygunluk kontrollerinden başvurulara, raporlamadan denetime kadar tüm süreci sizinle birlikte yönetiyoruz."
+
+#: .\website\templates\website\category_list.html:139
+msgid "Read more"
+msgstr "Daha fazla oku"
+
+#: .\website\templates\website\category_list.html:146
+msgid "No categories found."
+msgstr "Kategori bulunamadı."
+
+#: .\website\templates\website\contacts.html:44
+msgid "Please Contact Us"
+msgstr "Lütfen Bizimle İletişime Geçin"
+
+#: .\website\templates\website\contacts.html:48
+msgid "Our Address"
+msgstr "Adresimiz"
+
+#: .\website\templates\website\contacts.html:50
+msgid "Phone Number"
+msgstr "Telefon Numarası"
+
+#: .\website\templates\website\contacts.html:58
+msgid "Find us on the map"
+msgstr "Haritada bizi bulun"

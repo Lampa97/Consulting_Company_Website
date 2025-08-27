@@ -12,7 +12,7 @@ class CategoryListView(ListView):
     context_object_name = "categories"
 
     def get_queryset(self):
-        return Category.objects.all()
+        return Category.objects.all().order_by("order_number")
 
 
 class CategoryCreateView(CreateView):
@@ -42,7 +42,7 @@ class CategoryDetailView(DetailView):
 
 
 class ContactView(TemplateView):
-    template_name = "website/contact.html"
+    template_name = "website/contacts.html"
 
 
 class AboutView(TemplateView):

@@ -20,23 +20,32 @@ DEBUG = os.getenv("DEBUG", "False") == "True"
 
 ALLOWED_HOSTS = ["*"]
 
+ADMIN_EMAIL = os.getenv("ADMIN_EMAIL")
+ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD")
 
+
+# Internationalization: centralized locale folder
+LOCALE_PATHS = [BASE_DIR / "locale"]
 # Application definition
 
 INSTALLED_APPS = [
     "django.contrib.admin",
+    "modeltranslation",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "website",
+    "website.apps.WebsiteConfig",
     "users",
 ]
+# Custom 404 handler
+HANDLER404 = 'config.views.custom_404_view'
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
+    "django.middleware.locale.LocaleMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
@@ -111,9 +120,17 @@ CSRF_TRUSTED_ORIGINS = [
 SERVER_IP = os.getenv("SERVER_IP")
 DOMAIN_NAME = os.getenv("DOMAIN_NAME")
 
+
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
+
+# Supported languages for i18n
+LANGUAGES = [
+    ("en", "English"),
+    ("tr", "Türkçe"),
+    ("de", "Deutsch"),
+]
 LANGUAGE_CODE = "en-us"
 
 TIME_ZONE = "UTC"

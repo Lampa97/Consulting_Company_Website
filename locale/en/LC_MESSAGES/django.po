@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 10:10+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: .\templates\404.html:5
+msgid "Page Not Found"
+msgstr "Page Not Found"
+
+#: .\templates\404.html:12
+msgid "Page not found"
+msgstr "Page not found"
+
+#: .\templates\404.html:13
+msgid "Sorry, the page you are looking for does not exist or has been moved."
+msgstr "Sorry, the page you are looking for does not exist or has been moved."
+
+#: .\templates\404.html:14
+msgid "Back to Home"
+msgstr "Back to Home"
+
+#: .\templates\base.html:117
+msgid "Empowering Growth. Enabling Success."
+msgstr "Empowering Growth. Enabling Success."
+
+#: .\templates\base.html:124
+msgid "Services"
+msgstr "Services"
+
+#: .\templates\base.html:127
+msgid "About us"
+msgstr "About us"
+
+#: .\templates\base.html:130
+msgid "Contacts"
+msgstr "Contacts"
+
+#: .\website\templates\website\about.html:6
+msgid "About Us"
+msgstr "About Us"
+
+#: .\website\templates\website\about.html:19
+msgid "What makes us unique"
+msgstr "What makes us unique"
+
+#: .\website\templates\website\about.html:21
+msgid "We turn complex funding programs into measurable results."
+msgstr "We turn complex funding programs into measurable results."
+
+#: .\website\templates\website\about.html:24
+msgid "End-to-end support in grants, incentives, and investments"
+msgstr "End-to-end support in grants, incentives, and investments"
+
+#: .\website\templates\website\about.html:27
+msgid ""
+"Deep domain expertise across tourism, agriculture, logistics, education, and "
+"technology"
+msgstr "Deep domain expertise across tourism, agriculture, logistics, education, and technology"
+
+#: .\website\templates\website\about.html:30
+msgid "Tailored strategies focused on eligibility, impact, and ROI"
+msgstr "Tailored strategies focused on eligibility, impact, and ROI"
+
+#: .\website\templates\website\about.html:33
+msgid "Collaborative delivery, transparent process, long-term partnerships"
+msgstr "Collaborative delivery, transparent process, long-term partnerships"
+
+#: .\website\templates\website\about.html:36
+msgid ""
+"We help businesses, entrepreneurs, and institutions access the right funding "
+"at the right time—covering investment incentives, trade supports, "
+"agricultural and rural programs, renewable energy, EU-funded initiatives, "
+"and TÜBİTAK R&D. Our role is to simplify decisions and accelerate execution."
+msgstr "We help businesses, entrepreneurs, and institutions access the right funding at the right time—covering investment incentives, trade supports, agricultural and rural programs, renewable energy, EU-funded initiatives, and TÜBİTAK R&D. Our role is to simplify decisions and accelerate execution."
+
+#: .\website\templates\website\about.html:42
+msgid "Our Approach"
+msgstr "Our Approach"
+
+#: .\website\templates\website\about.html:46
+msgid ""
+"Eligibility first, paperwork next, results always. We align your goals with "
+"the right instruments, prepare winning applications, and stay with you "
+"through implementation, reporting, and audits."
+msgstr "Eligibility first, paperwork next, results always. We align your goals with the right instruments, prepare winning applications, and stay with you through implementation, reporting, and audits."
+
+#: .\website\templates\website\about.html:54
+msgid "Consulting Team"
+msgstr "Consulting Team"
+
+#: .\website\templates\website\category_detail.html:125
+msgid "Back to all services"
+msgstr "Back to all services"
+
+#: .\website\templates\website\category_list.html:89
+msgid "Service List"
+msgstr "Service List"
+
+#: .\website\templates\website\category_list.html:112
+msgid ""
+"C.A.F is your trusted partner in securing grants, incentives, and investment "
+"opportunities. We simplify complex programs and help your business turn "
+"funding into real growth."
+msgstr "C.A.F is your trusted partner in securing grants, incentives, and investment opportunities. We simplify complex programs and help your business turn funding into real growth."
+
+#: .\website\templates\website\category_list.html:116
+msgid "Investment Incentive Certificates & Land Allocation"
+msgstr "Investment Incentive Certificates & Land Allocation"
+
+#: .\website\templates\website\category_list.html:117
+msgid "Ministry of Trade Grants & Export Supports"
+msgstr "Ministry of Trade Grants & Export Supports"
+
+#: .\website\templates\website\category_list.html:118
+msgid "KOSGEB Programs for SMEs and Entrepreneurs"
+msgstr "KOSGEB Programs for SMEs and Entrepreneurs"
+
+#: .\website\templates\website\category_list.html:119
+msgid "Agricultural & Rural Development Funds (IPARD/TKDK)"
+msgstr "Agricultural & Rural Development Funds (IPARD/TKDK)"
+
+#: .\website\templates\website\category_list.html:120
+msgid "TÜBİTAK R&D and Innovation Projects"
+msgstr "TÜBİTAK R&D and Innovation Projects"
+
+#: .\website\templates\website\category_list.html:121
+msgid "EU-Funded Programs (Horizon, Erasmus+, etc.)"
+msgstr "EU-Funded Programs (Horizon, Erasmus+, etc.)"
+
+#: .\website\templates\website\category_list.html:122
+msgid "Renewable Energy & Green Transition Incentives"
+msgstr "Renewable Energy & Green Transition Incentives"
+
+#: .\website\templates\website\category_list.html:125
+msgid ""
+"From eligibility checks to applications, reporting, and audits — we manage "
+"the full process with you."
+msgstr "From eligibility checks to applications, reporting, and audits — we manage the full process with you."
+
+#: .\website\templates\website\category_list.html:139
+msgid "Read more"
+msgstr "Read more"
+
+#: .\website\templates\website\category_list.html:146
+msgid "No categories found."
+msgstr "No categories found."
+
+#: .\website\templates\website\contacts.html:44
+msgid "Please Contact Us"
+msgstr "Please Contact Us"
+
+#: .\website\templates\website\contacts.html:48
+msgid "Our Address"
+msgstr "Our Address"
+
+#: .\website\templates\website\contacts.html:50
+msgid "Phone Number"
+msgstr "Phone Number"
+
+#: .\website\templates\website\contacts.html:58
+msgid "Find us on the map"
+msgstr "Find us on the map"

@@ -1,3 +1,4 @@
+from django.conf import settings
 from django.contrib.auth import get_user_model
 from django.core.management.base import BaseCommand
 
@@ -6,9 +7,9 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         User = get_user_model()
         user = User.objects.create(
-            email="admin@test.com",
+            email=(settings.ADMIN_EMAIL),
         )
-        user.set_password("adminpass")
+        user.set_password(settings.ADMIN_PASSWORD)
         user.is_staff = True
         user.is_superuser = True
         user.save()
