@@ -124,22 +124,35 @@
         <div class="mb-2 position-relative" style="min-height:260px; max-width:100%; background-image: url('{% static 'images/background-main.avif' %}'); background-size: cover; background-position: center; border-radius: 20px;">
           <img src="{% static 'images/new-logo.jpg' %}" alt="Company Logo" class="caf-logo-responsive" style="position: relative; z-index: 2;">
           <div style="position:absolute;inset:0;border-radius:20px;background:rgba(255,255,255,0.18);z-index:1;"></div>
-          <div style="position:absolute;left:0;right:0;bottom:0;padding:18px 0 10px 0;z-index:3;display:flex;justify-content:center;">
+          <div style="
+            position:absolute;
+            left:0; right:0; bottom:0;
+            z-index:3;
+            width:100%;
+            display:flex;
+            align-items:flex-end;
+            pointer-events:none;
+          ">
             <span style="
-              display: inline-block;
+              width:100%;
+              display:block;
               font-family: 'Magnetor', 'Orbitron', 'Montserrat', Arial, sans-serif;
               font-size: 1.18rem;
               font-weight: 700;
               letter-spacing: 2px;
-              color: #232b3e;
-              background: linear-gradient(90deg, #e3e6ea 0%, #adb5bd 100%);
+              color: #181c22;
+              background: linear-gradient(90deg, #232b3e 0%, #495057 50%, #adb5bd 100%);
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
               background-clip: text;
               text-fill-color: transparent;
-              text-shadow: 0 2px 8px rgba(60,60,60,0.10);
-              padding: 0 12px;
-              white-space: pre-line;
+              text-shadow: 0 2px 12px rgba(255,255,255,0.18), 0 1px 0 #fff;
+              padding: 0 0 18px 0;
+              text-align:left;
+              white-space:nowrap;
+              overflow:hidden;
+              text-overflow:ellipsis;
+              background-size: 100% 100%;
             ">
               {% trans "Every Idea Can Become a Success" %}
             </span>
